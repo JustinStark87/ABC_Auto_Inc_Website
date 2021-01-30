@@ -118,3 +118,16 @@
   to {opacity: 1}
   
 }
+
+/* Weather Widgit */
+@import url(https://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400);
+
+#myWidget {
+
+  
+  width: 13% ;
+  height: 16% ;
+  position: fixed ;
+  top: 75px ;
+  right: 0px ;
+}
