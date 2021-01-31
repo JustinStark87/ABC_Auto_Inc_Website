@@ -135,6 +135,8 @@
 /* Car Finance Fee Calculator */
 article {
 
+  margin: auto;
+  text-align: center;
   width: 725px;
   height: 450px;
   margin-left: 40px;
@@ -151,12 +153,14 @@ article h1{
 
 article p{
 
-  padding: 15px 15px 15px 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
 
 }
 
 article input{
 
-  padding: 5px 5px 5px 5px;
+  padding: 10px 5px 5px 10px;
 
 }

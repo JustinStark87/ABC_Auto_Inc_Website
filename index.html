@@ -152,16 +152,17 @@
 
         <form onsubmit="return false" oninput="    totalamount.value = Math.round(principal.value * (Math.pow((1 + interest.value / 100), period.value)) * 100) / 100;">
 
-            Total Price<input name="principal" id="principal" type="number">
+            Total Price &nbsp &nbsp<input name="principal" id="principal" type="number">
 
             <br />
 
-            period<input name="period" id="period" type="number">
+            period &nbsp &nbsp &nbsp &nbsp&nbsp<input name="period" id="period" type="number">
 
             <br />
 
-            Interest Rate<input name="interest" id="interest" type="number">
+            Interest Rate &nbsp<input name="interest" id="interest" type="number">
 
+            <br />
             <br />
 
             Total amount <output name="totalamount" id="totalamount" for="principal period interest"></output>
@@ -177,6 +178,8 @@
         </footer>
 
     </article>
+
+    
 
     <!-- Car Financing Fee Calculator End -->
 
