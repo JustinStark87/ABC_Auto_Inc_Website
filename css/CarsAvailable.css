@@ -36,7 +36,7 @@
   }
   
   /* Clear floats after rows */ 
-  .row:after {
+    .row:after {
     content: "";
     display: table;
     clear: both;
@@ -49,9 +49,9 @@
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1300px) {
     .column {
-      width: 50%;
+      width: 100%;
     }
   }
   
