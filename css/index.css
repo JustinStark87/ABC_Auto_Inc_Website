@@ -171,17 +171,18 @@ aside{
 
   max-width: 700px;
   float: right;
-}
-
-
-
-
-
+  position: relative;
+  top: -450px;
+  background-color: black;
 }
 
 aside h2{
 
-  font-size: .85em;
+  font-size: 23px;
   font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
 
 }
