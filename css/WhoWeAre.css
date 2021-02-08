@@ -19,6 +19,7 @@ article{
     float: right;
     margin-top: -30px;
     color: white;
+    margin-right: 15px;
 
 
 }
@@ -33,3 +34,14 @@ section{
 
 
 }
+
+#myWidget {
+
+  
+    width: 13% ;
+    height: 16% ;
+    float: right;
+    margin-top: 80px;
+    top: 75px ;
+    right: 0px ;
+  }

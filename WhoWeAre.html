@@ -20,24 +20,28 @@
     <a target="_blank" href="https://www.booked.net/weather/dayton-2281">
         
     <img id="myWidget" src="https://w.bookcdn.com/weather/picture/31_2281_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=w209&anc_id=81554"  alt="booked.net"/></a>
-        
+      
+    <script src="js\weatherWidget_Cookie.js"></script>
+    
     <!-- weather widget end -->
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 
-<body>
+<body onload="ShowPosition(); checkCookie();">
 
     <!-- Nav menu begin-->
     <nav>
         <label class="logo">ABC Auto Inc</label>
         <ul>
+
             <li><a href="index.html">Home</a></li>
             <li><a class="active" href="WhoWeAre.html">Who We Are</a></li>
             <li><a href="CarsAvailable.html">Cars Available</a></li>
             <li><a href="ShowRoom.html">Show Room</a></li>
             <li><a href="CustomerSupport.html">Customer Support</a></li>
+
         </ul>
     </nav>
     <!--Nav menu ends-->

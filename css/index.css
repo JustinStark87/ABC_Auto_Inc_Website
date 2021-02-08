@@ -127,7 +127,8 @@
   
   width: 13% ;
   height: 16% ;
-  position: fixed ;
+  float: right;
+  margin-top: 80px;
   top: 75px ;
   right: 0px ;
 }
