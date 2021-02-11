@@ -53,9 +53,10 @@
   
   /* Content */
   .content {
+    width: 325px;
+    height: 400px;
     
-    background-color: white;
-    
+    background-color: white;        
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
