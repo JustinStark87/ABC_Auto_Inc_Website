@@ -19,14 +19,22 @@
     word-break: break-all;
   }
   
+  p {
+
+    font-size: .9em;
+
+  }
   .row {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column */
+  
+  
   .row,
   .row > .column {
     padding: 8px;
+    
   }
   
   /* Create four equal columns that floats next to each other */
