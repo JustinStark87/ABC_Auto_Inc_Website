@@ -33,6 +33,7 @@
   .column {
     float: left;
     width: 25%;
+    height: 100%;
   }
   
   /* Clear floats after rows */ 
