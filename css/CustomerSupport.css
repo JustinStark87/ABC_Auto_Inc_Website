@@ -1,9 +1,16 @@
+
+body{
+
+    background-color:midnightblue
+
+
+}
 .container{
 
     position: relative;
     top: 300px;
     margin-right: 50px;
-    width:34% ;
+    width:25% ;
     padding: 5 5 5 5px;
     border: 5px solid;
     height: 620px;
@@ -67,6 +74,7 @@ margin-left: 90px;
 position: relative;
 top: 150px;
 text-align: center;
+color: white;
 
 
 
@@ -75,15 +83,62 @@ text-align: center;
 #mydiv{
 
 position: relative;
-left: 1100px;
-top: -350px;
+left: 1200px;
+top: -530px;
 width: 375px;
 text-align: center;
+color: white;
 
+
+}
+
+#mydiv2{
+
+    position: relative;
+    left: 700px;
+    top: -650px;
+    width: 375px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+#myGTpicdiv{
+
+    position: relative;
+
+
+}
+
+#mycarpicdiv{
+
+    position: relative;
+    top: -700px;
+    left: 1250px;
 
 
 }
 
 
+
+/* The Weather Widget CSS */
+#myWidget {
+
+  
+    width: 13% ;
+    height: 16% ;
+    float: right;
+    margin-top: 80px;
+    top: 75px ;
+    right: 0px ;
+  }
+
+  #mygivediv{
+
+    position: relative;
+    top: -1200px;
+
+  }
 
 

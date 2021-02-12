@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="css/CustomerSupport.css" type="text/css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+     <!-- weather widget start -->
+
+     <a target="_blank" href="https://www.booked.net/weather/dayton-2281">
+        
+        <img id="myWidget" src="https://w.bookcdn.com/weather/picture/31_2281_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=w209&anc_id=81554"  alt="booked.net"/></a>
+        
+
 </head>
 <body>
 
@@ -19,7 +26,6 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="WhoWeAre.html">Who We Are</a></li>
             <li><a href="CarsAvailable.html">Cars Available</a></li>
-            <li><a href="ShowRoom.html">Show Room</a></li>
             <li><a class="active" href="CustomerSupport.html">Customer Support</a></li>
         </ul>
     </nav>
@@ -45,15 +51,26 @@
 
         <div id="mydiv2">
 
-            <h1>Get your cake and eat it too.</h1>
-            <img src="images\hook-405092__340.webp" style="width: 300px;" alt="Picture of a phone">
-            <h2>We measure success by our customer satisfaction</h2>
+            <h1>How may I help you</h1>
+            <img src="images\agent-18707_640.jpg" style="width: 300px;" alt="Picture of a phone">
+            <h2>I would be happy to help</h2>
 
         </div>
 
+        <div id="mycarpicdiv">
+
+            <img src="images\GT_RoadsterPic_FrontView.JPG" style="width: 500px;" alt="front view of Mercedes GT Roadster">
+
+        </div>
+
+        <div id="myGTpicdiv">
+
+            <img src="images\GT_BlackSeriesPic_ComingSoon.JPG" style="width: 875px; height: 600px;" alt="New model GT Black Series Coming Soon">
+
+        </div>
     
 
-     <div class="container">
+     <div class="container" id="mygivediv">
 
         <h2 style="text-align: center;">Free Car Give Away Form <br>2021 GT Roadster</h2>
 
@@ -123,7 +140,7 @@
 
                     <select id="inputState" class="form-control">
 
-                        <option selected>Choose...</option>
+                        <option selected></option>
 
                         <option>...</option>
 
@@ -145,19 +162,14 @@
 
                 <div class="form-check">
 
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
 
-                    <label class="form-check-label" for="gridCheck">
-
-                        Check me out
-
-                    </label>
+                    <label class="form-check-label" for="gridCheck"></label>
 
                 </div>
 
             </div>
 
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
 
         </form>
 
