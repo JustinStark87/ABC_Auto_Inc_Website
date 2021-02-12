@@ -4,6 +4,27 @@ body{
 
 }
 
+#myh2{
+
+  text-align: right;
+  font-size: 29px;
+  font-weight: bolder;
+  margin-right:20px;
+  margin-top: 40px;
+  color: white;
+
+}
+
+#myh22{
+
+  color: white;
+  margin-top: 80px;
+  font-size: 23px;
+  font-weight: bolder;
+  margin-left: 100px;
+  margin-bottom: 60px;
+
+}
 h1{
 
  margin-left: 320px;
