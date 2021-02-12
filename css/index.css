@@ -187,3 +187,17 @@ aside h2{
   text-align: center;
 
 }
+
+#footer{
+
+ margin-bottom: 0px;
+ position: relative;
+bottom:  -340px;
+
+}
+
+#copyright{
+
+margin-left: 780px;
+
+}
