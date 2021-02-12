@@ -4,15 +4,23 @@ body{
 
 }
 
+h1{
+
+ margin-left: 320px;
+ font-size: 30px;
+ margin-top: 145px;
+ margin-bottom: 45px;
+ font-weight: bolder;
+
+}
 
 
 #myWidget {
 
   
-    width: 13% ;
-    height: 16% ;
-    float: right;
+    width: 10% ;
+    height: 14% ;
+    float: left;
     margin-top: 80px;
-    top: 75px ;
-    right: 0px ;
+    
   }
