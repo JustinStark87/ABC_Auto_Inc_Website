@@ -1,42 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
+
 <head>
 
     <meta name="viewport" content="width-device-width, intial-scale=1" />
+
     <title>ABC Auto, Inc</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+
     <link rel="stylesheet" href="css/CustomerSupport.css" type="text/css"/>
+
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-     <!-- weather widget start -->
+    <!-- weather widget start -->
 
-     <a target="_blank" href="https://www.booked.net/weather/dayton-2281">
+    <a target="_blank" href="https://www.booked.net/weather/dayton-2281">
         
-        <img id="myWidget" src="https://w.bookcdn.com/weather/picture/31_2281_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=w209&anc_id=81554"  alt="booked.net"/></a>
+    <img id="myWidget" src="https://w.bookcdn.com/weather/picture/31_2281_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=w209&anc_id=81554"  alt="booked.net"/></a>
         
 
 </head>
-<body>
+
+<body onload="ShowPosition(); checkCookie();">
+    
 
     <!-- Nav menu begin-->
+
     <nav>
+
         <label class="logo">ABC Auto Inc</label>
+
         <ul>
+
             <li><a href="index.html">Home</a></li>
+
             <li><a href="WhoWeAre.html">Who We Are</a></li>
+
             <li><a href="CarsAvailable.html">Cars Available</a></li>
+
             <li><a class="active" href="CustomerSupport.html">Customer Support</a></li>
+
         </ul>
+
     </nav>
+
     <!--Nav menu ends-->
 
-    <!--form start-->
     <div>
+
         <div id="myphone">
 
             <h1>Help is just a call away</h1>
+
             <img src="images\phone_image.jpg" style="width: 300px;" alt="Picture of a phone">
+
             <h2>1-800-GET-HELP</h2>
 
         </div>
@@ -44,7 +65,9 @@
         <div id="mydiv">
 
             <h1>Get your cake and eat it too.</h1>
-            <img src="images\hook-405092__340.webp" style="width: 300px;" alt="Picture of a phone">
+
+            <img src="images\hook-405092__340.webp" style="width: 300px;" alt="Banner about good service">
+
             <h2>We measure success by our customer satisfaction</h2>
 
         </div>
@@ -52,7 +75,9 @@
         <div id="mydiv2">
 
             <h1>How may I help you</h1>
-            <img src="images\agent-18707_640.jpg" style="width: 300px;" alt="Picture of a phone">
+
+            <img src="images\agent-18707_640.jpg" style="width: 300px;" alt="Picture of a customer service agent">
+
             <h2>I would be happy to help</h2>
 
         </div>
@@ -70,118 +95,127 @@
         </div>
     
 
-     <div class="container" id="mygivediv">
+        <div class="container" id="mygivediv">
 
-        <h2 style="text-align: center;">Free Car Give Away Form <br>2021 GT Roadster</h2>
+            <h2 style="text-align: center;">Free Car Give Away Form <br>2021 GT Roadster</h2>
 
-        <form>
+            <!--form starts here-->
 
-            <div class="row">
+            <form>
 
-                <div class="col">
+                <div class="row">
 
-                    <label for="inputEmail4">F Name</label>
+                    <div class="col">
 
-                    <input type="text" class="form-control" placeholder="F name">
+                        <label for="inputEmail4">F Name</label>
 
-                </div>
+                        <input type="text" class="form-control" placeholder="F name">
 
-                <div class="col">
+                    </div>
 
-                    <label for="inputEmail4">L Name</label>
+                    <div class="col">
 
-                    <input type="text" class="form-control" placeholder="L name">
+                        <label for="inputEmail4">L Name</label>
 
-                </div>
+                        <input type="text" class="form-control" placeholder="L name">
 
-            </div>
-
-            <div class="form-row">
-
-                <div class="form-group col-md-12">
-
-                    <label for="inputEmail4">Email</label>
-
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
 
                 </div>
 
-            </div>
+                <div class="form-row">
 
-            <div class="form-group">
+                    <div class="form-group col-md-12">
 
-                <label for="inputAddress">Address</label>
+                        <label for="inputEmail4">Email</label>
 
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
 
-            </div>
-
-            <div class="form-group">
-
-                <label for="inputAddress2">Address 2</label>
-
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-
-            </div>
-
-            <div class="form-row">
-
-                <div class="form-group col-md-6">
-
-                    <label for="inputCity">City</label>
-
-                    <input type="text" class="form-control" id="inputCity">
+                    </div>
 
                 </div>
 
-                <div class="form-group col-md-4">
+                <div class="form-group">
 
-                    <label for="inputState">State</label>
+                    <label for="inputAddress">Address</label>
 
-                    <select id="inputState" class="form-control">
-
-                        <option selected></option>
-
-                        <option>...</option>
-
-                    </select>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
 
                 </div>
 
-                <div class="form-group col-md-2">
+                <div class="form-group">
 
-                    <label for="inputZip">Zip</label>
+                    <label for="inputAddress2">Address 2</label>
 
-                    <input type="text" class="form-control" id="inputZip">
-
-                </div>
-
-            </div>
-
-            <div class="form-group">
-
-                <div class="form-check">
-
-
-                    <label class="form-check-label" for="gridCheck"></label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
 
                 </div>
 
-            </div>
+                <div class="form-row">
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="form-group col-md-6">
 
-        </form>
+                        <label for="inputCity">City</label>
 
-    </div>
+                        <input type="text" class="form-control" id="inputCity">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="inputState">State</label>
+
+                        <select id="inputState" class="form-control">
+
+                            <option selected></option>
+
+                            <option>...</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group col-md-2">
+
+                        <label for="inputZip">Zip</label>
+
+                        <input type="text" class="form-control" id="inputZip">
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <div class="form-check">
+
+
+                        <label class="form-check-label" for="gridCheck"></label>
+
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+
+            <!--form ends here-->
+
+        </div>
+
     </div>
 
 
      <!--bootstrap and jquery scripts -->
+
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
  
+     <script src="js\weatherWidget_Cookie.js"></script>
     
  
 </body>
